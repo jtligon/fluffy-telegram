@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 
+@property IBOutlet UITableView *tableView;
 
 @end
-

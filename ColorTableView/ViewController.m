@@ -15,13 +15,24 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+  [super viewDidLoad];
+  // 1. Create a UITableView
+
+  // programmatically
+
+  // or with InterfaceBuilder
+
+  // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [super didReceiveMemoryWarning];
+  // Dispose of any resources that can be recreated.
 }
+
+// 3. implement the UITableViewDataSource required calls.
+
+// 4. implement any helpful functions that you might need from the
+// viewController
 
 @end
